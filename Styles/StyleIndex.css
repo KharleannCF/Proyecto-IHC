@@ -1,0 +1,128 @@
+*{
+	font-family: Reem Kufi;
+}
+body{
+	background-color: black;
+	margin: 0px;
+}
+
+img{
+	width: 350px;
+	height: 80px;
+	margin-top: 5px;
+	margin-left: 4vw;
+}
+
+.blue{
+	position: absolute;
+	background-color: #030F20;
+	opacity:0.7;
+	top: 0%;
+	width: 100vw;
+	height: 100px;
+	z-index: -1;
+}
+
+.banner {
+	background-image: url("./Images/Banner.png");
+	background-repeat: no-repeat;
+	background-size: 100vw 100px;
+	width: 100vw;
+	height: 100px;
+	position: fixed;
+}
+
+.subnav{
+	display: flex;
+	margin-top: 20px;  
+	margin-right: 5vw;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.navBut{
+	margin-right: 2vw;
+	width: 10vw;
+	background: #304A6D;
+	box-shadow: 3px -3px 4px rgba(0, 0, 0, 0.25), inset 2px -2px 6px rgba(255, 255, 255, 0.75);
+	border-style: none;
+	border-radius: 50px;
+	font-size: 1rem;
+	line-height: 30px;
+	text-align: center;
+	color: #F6F7F5;
+}
+.navButAct{
+	background: #E9CA79;
+	color: #304A6D;
+}
+.container{
+	background-image: url("./Images/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 76vh;
+	position: absolute;
+	top: 150px;
+	width: 100vw;
+	height: 76vh;
+}
+.cristal{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 30px;
+	margin-left: 15vw;
+	border-radius: 25px;
+	width: 70vw;
+	height: 345px;
+}
+article{
+	color: #F6F7F5;
+	width: 40%;
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+}
+form{
+	width: 50%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+input{
+	background: #F6F7F5;
+	border-radius: 20px;
+	width: 20vw;
+	box-shadow: 3px -3px 4px rgba(0, 0, 0, 0.25), inset 2px -2px 6px rgba(255, 255, 255, 0.75);
+	border-style: none;
+	border-radius: 50px;
+	font-size: 1rem;
+	line-height: 30px;
+	text-align: center;
+}
+.buttForm{
+	width: 10vw;
+	box-shadow: 3px -3px 4px rgba(0, 0, 0, 0.25), inset 2px -2px 6px rgba(255, 255, 255, 0.75);
+	border-style: none;
+	border-radius: 50px;
+	font-size: 1rem;
+	line-height: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.boton{
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+
+}
+	
+a{
+	text-decoration: none;
+	color: #F6F7F5;
+	font-size: 0.7rem;
+}
